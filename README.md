@@ -11,9 +11,9 @@ This project implements an end-to-end image classification pipeline for categori
 The task is formulated as a single-label, multi-class classification problem. It was divided into three categories: skincare, makeup, and scents. It's common for models to get confused due to simple minimalistic packaging. The images from the dataset were hand-picked to show similarities in boxes, lids, minimalistic designing, etc. 
 ### Dataset
 The dataset consists of labeled product images organized in a folder-per-class structure compatible with torchvision.datasets.ImageFolder. 
--Number of classes: 3
--Class imbalance is present (scents is the smallest class)
--Images vary in lighting, background, and packaging style
+*Number of classes: 3
+*Class imbalance is present (scents is the smallest class)
+*Images vary in lighting, background, and packaging style
 ### Model Architecture
 The model uses MobileNetV3-Small as a backbone, initialized with ImageNet pretrained weights. The final classification head is replaced to match the number of target classes. We are choosing this architecture for representational capacity and for inferencing/edge deployment
 ### Training Procedure
@@ -42,6 +42,6 @@ weighted avg       0.89      0.88      0.88        66
 Best validation accuracy achieved: ~88%
 
 Some key observations:
--Makeup is predicted with high precision.
--Skincare exhibits high recall but lower precision, acting as a “default” class.
--Scents is the most challenging class due to visual overlap and fewer samples.
+*Makeup is predicted with high precision.
+*Skincare exhibits high recall but lower precision, acting as a “default” class.
+*Scents is the most challenging class due to visual overlap and fewer samples.
