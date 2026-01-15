@@ -39,3 +39,9 @@ Classification report:
 weighted avg       0.89      0.88      0.88        66
 ```
 ### Results
+Best validation accuracy achieved: ~88%
+
+Some key observations:
+-Makeup is predicted with high precision.
+-Skincare exhibits high recall but lower precision, acting as a “default” class.
+-Scents is the most challenging class due to visual overlap and fewer samples.
