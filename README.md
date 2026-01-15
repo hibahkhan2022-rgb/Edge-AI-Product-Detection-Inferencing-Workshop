@@ -20,12 +20,14 @@ The model uses MobileNetV3-Small as a backbone, initialized with ImageNet pretra
 As indicated in the Colab file, the AdamW optimizer and Cross-Entropy loss were used. In transform, the data augmentation techniques included color jitter, horizontal flips, and random resized crops.
 ### Evaluation
 Includes the ConfusionMatrix, per-class precision, recall, and F1 scores
+```
 Confusion matrix:
  [[25  2  3]
  [ 0 14  2]
  [ 1  0 19]]
-
+```
 Classification report:
+```
               precision    recall  f1-score   support
 
       makeup       0.96      0.83      0.89        30
@@ -35,5 +37,5 @@ Classification report:
     accuracy                           0.88        66
    macro avg       0.88      0.89      0.88        66
 weighted avg       0.89      0.88      0.88        66
-
+```
 ### Results
