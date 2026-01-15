@@ -42,6 +42,12 @@ weighted avg       0.89      0.88      0.88        66
 Best validation accuracy achieved: ~88%
 
 Some key observations:
-*Makeup is predicted with high precision.
-*Skincare exhibits high recall but lower precision, acting as a “default” class.
-*Scents is the most challenging class due to visual overlap and fewer samples.
+1. Makeup is predicted with high precision.
+2. Skincare exhibits high recall but lower precision, acting as a “default” class.
+3. Scents is the most challenging class due to visual overlap and fewer samples.
+
+### Error Analysis
+It was found misclassifications primarily arise from visual ambiguity rather than optimization failure. Products with shared packaging are often misrepresented across categories. This analysis informed decisions around data augmentation and motivates future work on representation-level diagnostics rather than treating errors as noise.
+
+### Future Direction
+This model can be exported for real-time analysis using Torchscript or ONNX
