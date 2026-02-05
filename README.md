@@ -1,8 +1,8 @@
 # Edge-AI-Product-Detection-Inferencing-Workshop
 This workshop covers the fundamentals of edge AI with hands-on practice of real-time inferencing. 
 
-## Presentation Slides (before project begins)
-Link: https://github.com/hibahkhan2022-rgb/Edge-AI-Product-Detection-Inferencing-Workshop/blob/main/EdgeAIProject.pdf
+## Colab File:
+Link: https://colab.research.google.com/drive/1zrPDkoA2iDEGN03k7j97hHzvHtds4r_x?usp=sharing
 
 ## Dataset Download
 Link: https://drive.google.com/drive/folders/1maXKNqGGDovilj1yYxBWne52cM1GYQ0M?usp=sharing
