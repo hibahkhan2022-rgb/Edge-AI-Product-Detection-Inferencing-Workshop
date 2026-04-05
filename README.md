@@ -5,7 +5,7 @@ This workshop covers the fundamentals of edge AI with hands-on practice of real-
 Link: https://colab.research.google.com/drive/1zrPDkoA2iDEGN03k7j97hHzvHtds4r_x?usp=sharing
 
 ## Dataset Download
-Link: https://drive.google.com/drive/folders/1maXKNqGGDovilj1yYxBWne52cM1GYQ0M?usp=sharing
+Link: [https://drive.google.com/drive/folders/1maXKNqGGDovilj1yYxBWne52cM1GYQ0M?usp=sharing](https://drive.google.com/drive/folders/1fQTJXlrP5SoB3b0V9Cvf0SZTgQNi5fBJ?usp=sharing)
 
 ## Colab Project
 ### Overview
